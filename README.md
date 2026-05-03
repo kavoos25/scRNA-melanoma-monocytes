@@ -10,6 +10,8 @@ This project presents a complete and reproducible **single-cell RNA sequencing (
 
 It integrates advanced transcriptomic analysis with a **fully offline Gene Set Enrichment Analysis (GSEA)** pipeline, designed to work in restricted or low-connectivity environments.
 
+We identified melanoma-associated transcriptional reprogramming in circulating CD14+ monocytes, revealing immunosuppressive signatures consistent with M-MDSC-like phenotypes.
+
 ---
 
 ## 🔬 Scientific Objectives
