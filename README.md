@@ -6,11 +6,13 @@
 
 ## 🎯 Project Summary
 
-This project presents a complete and reproducible **single-cell RNA sequencing (scRNA-seq)** analysis workflow focused on **melanoma-associated monocytes**.
+Melanoma progression is strongly influenced by systemic immune reprogramming, particularly within circulating monocyte populations.
 
-It integrates advanced transcriptomic analysis with a **fully offline Gene Set Enrichment Analysis (GSEA)** pipeline, designed to work in restricted or low-connectivity environments.
+In this project, I performed a reproducible single-cell RNA-seq analysis to characterize transcriptional heterogeneity in CD14+ monocytes from melanoma samples.
 
-We identified melanoma-associated transcriptional reprogramming in circulating CD14+ monocytes, revealing immunosuppressive signatures consistent with M-MDSC-like phenotypes.
+The analysis reveals distinct functional states, including immunosuppressive signatures consistent with M-MDSC-like phenotypes, highlighting potential mechanisms of tumor-driven immune modulation.
+
+In addition, I developed a fully offline Gene Set Enrichment Analysis (GSEA) workflow, enabling pathway-level interpretation in restricted computational environments.
 
 ---
 
@@ -25,12 +27,11 @@ We identified melanoma-associated transcriptional reprogramming in circulating C
 
 ## 🚀 Key Contributions
 
-✅ End-to-end scRNA-seq pipeline using Scanpy
-✅ Robust differential expression analysis
-✅ **Offline GSEA implementation (custom GMT parsing & validation)**
-✅ Multi-source pathway analysis (KEGG, GO, Reactome)
-✅ Automated figure generation (publication-ready)
-✅ Reproducible and modular notebook structure
+- Developed a fully reproducible end-to-end scRNA-seq pipeline for melanoma analysis  
+- Identified functionally distinct monocyte subpopulations linked to tumor-associated immune modulation  
+- Implemented a robust offline GSEA framework enabling pathway analysis without internet access  
+- Integrated multi-database pathway analysis (KEGG, GO, Reactome) for biological interpretation  
+- Generated publication-ready multi-panel visualizations  
 
 ---
 
@@ -44,13 +45,30 @@ We identified melanoma-associated transcriptional reprogramming in circulating C
 
 ## 🧪 Biological Insights
 
-* **Cluster 0**: Enriched in translation and ribosomal pathways
-  → Indicates high biosynthetic and metabolic activity
+The analysis reveals significant functional heterogeneity among melanoma-associated monocytes:
 
-* **Cluster 8**: Enriched in immune and viral-response pathways
-  → Suggests activated or inflammatory monocyte subtype
+- **Cluster 0**  
+  Enriched in ribosomal and translational pathways, suggesting elevated biosynthetic activity and potential involvement in rapid cellular adaptation.
 
-* Overall results highlight **functional heterogeneity of tumor-associated monocytes**
+- **Cluster 8**  
+  Enriched in immune and antiviral response pathways, indicating an activated or inflammatory monocyte state.
+
+- **Global observation**  
+  The presence of both metabolically active and immune-responsive subpopulations supports a model of dynamic monocyte reprogramming in melanoma.
+
+These findings are consistent with emerging evidence of M-MDSC-like immunosuppressive phenotypes in cancer.
+
+---
+
+## 🔍 Why This Matters
+
+Understanding how melanoma reshapes circulating monocytes is critical for:
+
+- Identifying biomarkers of immune suppression  
+- Improving immunotherapy response prediction  
+- Revealing potential therapeutic targets  
+
+This project demonstrates how reproducible single-cell analysis can bridge computational methods with clinically relevant biological insights.
 
 ---
 
@@ -106,6 +124,12 @@ Run notebooks sequentially:
 * Fully reproducible pipeline
 * Offline-compatible GSEA (no internet required after setup)
 * Clean modular structure for reuse in other datasets
+
+---
+
+## 🧠 Author Perspective
+
+With a background in molecular genetics, clinical laboratory work, and bioinformatics, this project reflects an integrated approach combining biological interpretation with computational rigor.
 
 ---
 
